@@ -1,7 +1,7 @@
 'use strict';
 
 const japaneseRestaurant = {
-  name: 'Banzai',
+  restName: 'Banzai',
   location: '108 Markham Woods Rd, Longwood, USA',
   categories: ['Japanese', 'Sushi', 'Vegetarian', 'Organic'],
   appetizers: ['Seaweed salad', 'Tempura shrimp', 'Edamame', 'Sushi rice'],
@@ -26,9 +26,8 @@ const japaneseRestaurant = {
 
 }
 //Destructuring Objects
-function getRestaurantName(restaurant) {
-   return restaurant.name;  
-}
+const {workingHours, restName, categories } = japaneseRestaurant; 
+console.log(workingHours, restName, categories);
 //Destructuring Arrays
 // const array = [1, 2, [7, 9]];
 
