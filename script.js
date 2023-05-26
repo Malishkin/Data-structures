@@ -6,7 +6,7 @@ const japaneseRestaurant = {
   categories: ['Japanese', 'Sushi', 'Vegetarian', 'Organic'],
   appetizers: ['Seaweed salad', 'Tempura shrimp', 'Edamame', 'Sushi rice'],
   mainMenu: ['Sushi', 'Ramen', 'Tempura'],
-  workingHorurs: {
+  workingHours: {
     wed: {
       open: 10,
       close: 23
