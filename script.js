@@ -9,3 +9,10 @@ const japaneseRestaurant = {
 };
 
 
+const array = [1, 2, [7, 9]];
+
+function getSeven(array) {
+  return array[2][0];
+}
+
+console.log(getSeven(array));
