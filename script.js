@@ -7,3 +7,5 @@ const japaneseRestaurant = {
   appetizers: ['Seaweed salad', 'Tempura shrimp', 'Edamame', 'Sushi rice'],
   mainMenu: ['Sushi', 'Ramen', 'Tempura'],
 };
+
+
